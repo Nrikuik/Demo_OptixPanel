@@ -15,7 +15,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 650.0
+    Value: 645.0
   - Name: Tuberias
     Type: Rectangle
     Children:
@@ -279,7 +279,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 286.0
+        Value: 296.0
     - Name: Pipe90Degree1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -525,7 +525,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 20.0
     - Name: PipeTConnector1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -749,7 +749,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 372.0
+        Value: 382.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -999,6 +999,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 10.0
     - Name: PipeStraight2
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1234,7 +1235,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 250.0
+        Value: 260.0
     - Name: PipeStraight3
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1465,7 +1466,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 770.0
+        Value: 773.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -1723,7 +1724,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 950.0
+        Value: 953.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -1951,7 +1952,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 286.0
+        Value: 296.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -2179,7 +2180,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 250.0
+        Value: 260.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -2420,7 +2421,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 336.0
+        Value: 346.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -2661,7 +2662,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -2888,7 +2889,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 351.0
+        Value: 361.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -3129,7 +3130,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -3369,7 +3370,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -3609,7 +3610,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -3849,7 +3850,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -4089,7 +4090,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -4329,7 +4330,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -4569,7 +4570,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 393.0
+        Value: 403.0
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
@@ -4605,7 +4606,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 20.0
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
@@ -5749,7 +5750,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 70.0
+        Value: 80.0
       - Name: FontScaling
         Type: BaseDataVariableType
         DataType: Boolean
@@ -6035,7 +6036,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 40.0
+        Value: 50.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -6264,7 +6265,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 660.0
+        Value: 663.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -6550,7 +6551,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 8.0
+        Value: 18.0
     - Name: Pump2
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -6795,7 +6796,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -2.0
+        Value: 8.0
     - Name: Pump3
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -7035,7 +7036,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 829.0
+        Value: 832.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -7215,7 +7216,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 210.0
+        Value: 220.0
     - Name: GlobeValve2
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -7389,7 +7390,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 175.0
+        Value: 185.0
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -7945,7 +7946,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 109.0
+        Value: 119.0
     - Name: Datos_TanqueQuimicos
       Type: Datos
       Children:
@@ -8463,7 +8464,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 110.0
+        Value: 120.0
     - Name: Datos_TanquePurificado
       Type: Datos
       Children:
@@ -8994,7 +8995,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 500.0
+        Value: 503.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -9022,7 +9023,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 20.0
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color

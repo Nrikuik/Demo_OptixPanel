@@ -263,6 +263,10 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container/Dialog"
+  - Name: Caption
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
@@ -588,42 +592,32 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 10.0
-        - Name: Usuario
-          Type: Label
+        - Name: Image1
+          Type: Image
           Children:
-          - Name: Text
+          - Name: Path
             Type: BaseDataVariableType
-            DataType: LocalizedText
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demo_OptixPanel/System/FTRemoteAccess/RemoteConnectionRequestEventHandler/EventArguments/Username"
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 950
-          - Name: TextHorizontalAlignment
+            DataType: ResourceUri
+            Value: "ns=18;%PROJECTDIR%/Escudo-UNAM-escalable.svg.png"
+          - Name: Width
             Type: BaseVariableType
-            DataType: TextHorizontalAlignment
-            ModellingRule: Optional
-            Value: 1
-          - Name: TextVerticalAlignment
-            Type: BaseVariableType
-            DataType: TextVerticalAlignment
-            ModellingRule: Optional
-            Value: 1
-          - Name: FontSize
-            Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 13.0
+            Value: 40.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 50.0
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
             ModellingRule: Optional
             Value: 3
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment

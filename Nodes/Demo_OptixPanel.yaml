@@ -31,6 +31,9 @@ Children:
   - Name: AuthenticationMode
     Type: BaseDataVariableType
     DataType: AuthenticationMode
+  - Name: ClientId
+    Type: BaseDataVariableType
+    DataType: Password
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
