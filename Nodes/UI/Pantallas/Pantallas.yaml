@@ -7221,7 +7221,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: -1.0
-  - Name: Rectangle1
+  - Name: Rectangle_Botonera
     Type: Rectangle
     Children:
     - Name: Width
@@ -8137,7 +8137,7 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 30.0
-  - Name: Rectangle2
+  - Name: Rectangle_Bombas
     Type: Rectangle
     Children:
     - Name: Width
@@ -8154,12 +8154,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 40.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 500.0
+      Value: 480.0
     - Name: HorizontalLayout1
       Type: RowLayout
       Children:
