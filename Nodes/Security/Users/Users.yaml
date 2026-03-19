@@ -1,0 +1,10 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: Admin
+  Id: g=24320174759cbf9edc33fb330e287d3d
+  Type: UserType
+- Name: General
+  Id: g=32eb0757523f01697979c756bb4ddf22
+  Type: UserType

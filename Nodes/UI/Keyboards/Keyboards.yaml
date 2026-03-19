@@ -1,0 +1,4 @@
+Name: ns=11;Keyboards
+Type: KeyboardsCategoryFolder
+Children:
+- File: Basic_Keyboards/Basic_Keyboards.yaml

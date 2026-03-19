@@ -1,0 +1,23 @@
+Name: Type
+Type: FolderType
+Children:
+- Name: Bomba
+  Id: g=c2eac56ca60008abe88c3110eb8602ac
+  Supertype: BaseObjectType
+  Children:
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Caudal
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Tanque
+  Id: g=c6d49bdd77f25df5beff29399e6c43f3
+  Supertype: BaseObjectType
+  Children:
+  - Name: Nivel_Tanque
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Fill
+    Type: BaseDataVariableType
+    DataType: Boolean

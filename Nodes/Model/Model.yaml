@@ -1,0 +1,64 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Start
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Stop
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: TanqueAgua
+  Type: Tanque
+  Children:
+  - Name: Nivel_Tanque
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Fill
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: TanqueQuimicos
+  Type: Tanque
+  Children:
+  - Name: Nivel_Tanque
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Fill
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: TanquePurificado
+  Type: Tanque
+  Children:
+  - Name: Nivel_Tanque
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Fill
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Bomba1
+  Type: Bomba
+  Children:
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Caudal
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Bomba2
+  Type: Bomba
+  Children:
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Caudal
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Bomba3
+  Type: Bomba
+  Children:
+  - Name: Run
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Caudal
+    Type: BaseDataVariableType
+    DataType: Int32
+- File: Type/Type.yaml

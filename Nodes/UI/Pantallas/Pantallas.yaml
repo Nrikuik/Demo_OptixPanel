@@ -1,0 +1,7 @@
+Name: Pantallas
+Type: FolderType
+Children:
+- Name: Proceso
+  Id: g=aa79cb60b90d3915e6036250fa95bb3e
+  Supertype: Contenido_General
+  ReferenceType: HasComponent
