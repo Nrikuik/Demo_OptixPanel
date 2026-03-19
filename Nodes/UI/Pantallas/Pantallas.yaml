@@ -7551,6 +7551,17 @@ Children:
       - Name: LightOn
         Type: BaseDataVariableType
         DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Demo_OptixPanel/Model/Stop"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: Width
         Type: BaseVariableType
         DataType: Size
