@@ -10,14 +10,14 @@ Children:
     DataType: Boolean
   - Name: Caudal
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
 - Name: Tanque
   Id: g=c6d49bdd77f25df5beff29399e6c43f3
   Supertype: BaseObjectType
   Children:
   - Name: Nivel_Tanque
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
   - Name: Fill
     Type: BaseDataVariableType
     DataType: Boolean

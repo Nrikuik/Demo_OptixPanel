@@ -12,7 +12,7 @@ Children:
   Children:
   - Name: Nivel_Tanque
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
   - Name: Fill
     Type: BaseDataVariableType
     DataType: Boolean
@@ -21,7 +21,7 @@ Children:
   Children:
   - Name: Nivel_Tanque
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
   - Name: Fill
     Type: BaseDataVariableType
     DataType: Boolean
@@ -30,7 +30,7 @@ Children:
   Children:
   - Name: Nivel_Tanque
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
   - Name: Fill
     Type: BaseDataVariableType
     DataType: Boolean
@@ -42,7 +42,7 @@ Children:
     DataType: Boolean
   - Name: Caudal
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
 - Name: Bomba2
   Type: Bomba
   Children:
@@ -51,7 +51,7 @@ Children:
     DataType: Boolean
   - Name: Caudal
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
 - Name: Bomba3
   Type: Bomba
   Children:
@@ -60,5 +60,5 @@ Children:
     DataType: Boolean
   - Name: Caudal
     Type: BaseDataVariableType
-    DataType: Int32
+    DataType: Float
 - File: Type/Type.yaml
