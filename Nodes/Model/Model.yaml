@@ -1,10 +1,8 @@
 Name: Model
 Type: ModelCategoryFolder
 Children:
-- Name: Start
-  Type: BaseDataVariableType
-  DataType: Boolean
-- Name: Stop
+- Name: Proceso_Encendido
+  Id: g=b3f6df076fec73155a0d465ad6d20744
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: TanqueAgua
