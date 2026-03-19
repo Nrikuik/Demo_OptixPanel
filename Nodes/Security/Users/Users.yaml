@@ -5,6 +5,167 @@ Children:
 - Name: Admin
   Id: g=24320174759cbf9edc33fb330e287d3d
   Type: UserType
-- Name: General
+  Children:
+  - Name: Password
+    Id: g=71505c92b93fa191cdd9f15983e963df
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=2387bfff59e02553bd2c383342ffe48a
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [237,185,160,240,129,125,61,33,158,218,252,4,153,122,100,166,61,65,191,98,50,129,147,109,229,25,155,40,217,106,149,132],
+         "Salt": [195,171,47,165,1,112,42,239,150,87,135,220,74,218,136,27,135,17,52,231,14,48,221,209,214,17,85,72,3,141,84,83]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=bd660f594d555840f25be010902f3bf6
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-03-19T14:35:35.8664937"
+    - Name: History
+      Id: g=43d5feef89dde569d596515335e5c3d6
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[237,185,160,240,129,125,61,33,158,218,252,4,153,122,100,166,61,65,191,98,50,129,147,109,229,25,155,40,217,106,149,132],"Salt":[195,171,47,165,1,112,42,239,150,87,135,220,74,218,136,27,135,17,52,231,14,48,221,209,214,17,85,72,3,141,84,83]}}]
+  - Name: LocaleId
+    Id: g=2e0d7fad57d30de2fdb5af94d360bfbf
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=d2e8e3a487378cfd47224e128b6d2f44
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Name: Domain
+    Id: g=b61ada0c7015a0b89ea4e44ac167f670
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+  - Name: Language
+    Id: g=869049bb016318641b799a5c160a3982
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Class: Reference
+    Type: HasGroup
+    Target: g=dc869ae97b2279b591a6e524fa9cc4ee
+- Name: Operator
   Id: g=32eb0757523f01697979c756bb4ddf22
   Type: UserType
+  Children:
+  - Name: Password
+    Id: g=47ea7ad33a9017f47155bdb7105f1ecc
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=ea6892d5696468f27a7dd96e746851dd
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [96,20,25,39,233,122,30,121,243,69,71,185,146,177,152,109,131,218,58,187,161,242,177,185,165,20,80,220,164,54,216,233],
+         "Salt": [137,243,241,237,63,124,224,86,35,52,101,30,59,249,238,4,196,85,121,3,35,173,0,160,0,90,123,34,93,227,4,41]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=39d4ea35c03920a62c30386ea890c457
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-03-19T14:35:41.8610995"
+    - Name: History
+      Id: g=d443240b5561406bf2a804c5de20c62c
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[96,20,25,39,233,122,30,121,243,69,71,185,146,177,152,109,131,218,58,187,161,242,177,185,165,20,80,220,164,54,216,233],"Salt":[137,243,241,237,63,124,224,86,35,52,101,30,59,249,238,4,196,85,121,3,35,173,0,160,0,90,123,34,93,227,4,41]}}]
+  - Name: MeasurementSystem
+    Id: g=57815481dfc812f22d16cffa27963dd3
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=f4891d2633ae741448092b0dd0a016dc
+- Name: Supervisor
+  Id: g=a74bc7949b5e15847e93c01beeb3e265
+  Type: UserType
+  Children:
+  - Name: MeasurementSystem
+    Id: g=c39d9826f8d3feff02b46c7af160437c
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=dc869ae97b2279b591a6e524fa9cc4ee
+  - Name: Password
+    Id: g=6395dd279203f811fa661d49fbc4d895
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=b59d859980f4797ad6f17442e8c76f61
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [19,101,67,2,147,133,237,245,202,47,180,54,155,134,27,208,218,156,180,253,225,29,185,143,227,16,91,192,53,50,107,227],
+         "Salt": [47,108,6,192,146,69,239,161,66,165,78,213,49,187,138,101,120,86,48,193,21,94,151,208,68,166,103,223,42,27,185,174]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=11d08efcf9b8525293eb7210f795c609
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2026-03-19T14:38:41.5247333"
+    - Name: History
+      Id: g=242736a05d822ec767cd49e88963f745
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[19,101,67,2,147,133,237,245,202,47,180,54,155,134,27,208,218,156,180,253,225,29,185,143,227,16,91,192,53,50,107,227],"Salt":[47,108,6,192,146,69,239,161,66,165,78,213,49,187,138,101,120,86,48,193,21,94,151,208,68,166,103,223,42,27,185,174]}}]

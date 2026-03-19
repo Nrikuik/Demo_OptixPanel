@@ -77,15 +77,15 @@ Project:
    Module: FTOptix.NetLogic
    Version: 4.0
  Statistics:
-  TotalNodeCount: 3016
-  Objects: 673
-  ObjectTypes: 35
-  Variables: 2298
+  TotalNodeCount: 3913
+  Objects: 871
+  ObjectTypes: 47
+  Variables: 2973
   VariableTypes: 0
   DataTypes: 0
-  Methods: 10
-  References: 20
+  Methods: 22
+  References: 39
   ReferenceTypes: 0
-  Files: 35
+  Files: 39
  Nodes:
  - File: Nodes/Demo_OptixPanel.yaml

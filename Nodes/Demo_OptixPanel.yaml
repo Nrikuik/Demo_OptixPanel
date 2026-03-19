@@ -22,12 +22,15 @@ Children:
   - Name: DefaultUserFolder
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Demo_OptixPanel/Security/Users"
+    Value: "/Objects/Demo_OptixPanel/UI/Users"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:

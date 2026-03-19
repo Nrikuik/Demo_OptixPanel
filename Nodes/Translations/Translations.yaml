@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [66,2],
+    "Dimensions": [92,2],
     "Body": [
      "","en-US",
      "Reboot","Reboot",
@@ -76,6 +76,32 @@ Children:
      "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?",
      "RegisterToDomainDeviceID","Device ID:",
      "PLCaddress","PLC address",
-     "PLC","Auto (PLC)"
+     "PLC","Auto (PLC)",
+     "Confirm password","Confirm password",
+     "Password","Password",
+     "Change User","Change User",
+     "Old password","Old password",
+     "New password","New password",
+     "Change password","Change password",
+     "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation",
+     "Your password has expired. Please enter a new one.","Your password has expired. Please enter a new one.",
+     "ChangeUserFormOutputSuccessMessage","Change User successful",
+     "ChangeUserFormOutputErrorMessage","Authentication failed",
+     "ChangeUserFormOutputPasswordExpired","Password expired",
+     "ChangePasswordFormSuccessMessage","Password changed successfully",
+     "ChangePasswordFormWrongOldPasswordMessage","Wrong old password",
+     "ChangePasswordFormPasswordAlreadyUsedMessage","Password already used",
+     "ChangePasswordFormPasswordChangedTooRecentlyMessage","Password changed too recently",
+     "ChangePasswordFormPasswordTooShortMessage","Password too short",
+     "ChangePasswordFormUserNotFoundMessage","User not found",
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match",
+     "LoginFormPasswordExpired","Password expired",
+     "Login","Login",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.",
+     "Current User:","Current User:",
+     "Logout","Logout",
+     "LoginFormLoginSuccessful","Login successful",
+     "LoginFormAuthenticationFailed","Authentication failed",
+     "LoginFormInvalidAuthenticationModeForUser","Invalid authentication mode for user"
     ]
    }
