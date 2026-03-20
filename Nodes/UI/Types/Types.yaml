@@ -1,0 +1,1018 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: Datos
+  Id: g=00656667d86a976038064cc3fbebd6a2
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 150.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 120.0
+  - Name: VerticalLayout1
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Label_Nombre
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Tanque de Agua"}
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 5.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -6.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 12.0
+    - Name: Label_Nivel
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Nivel de Agua"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: TextNivel
+      Type: TextBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -16.0
+    - Name: Label_Caudal
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Caudal"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: Text_Caudal
+      Type: TextBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -14.0
+    - Name: Label_Bomba
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Bomba"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 13.0
+    - Name: LED_Bomb
+      Type: ScaleLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#32ee00"
+      - Name: On
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: BaseColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cccccc"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 18.0
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Outline
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Outline.svg"
+      - Name: Base
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/CylinderLEDSideView_Base.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#cccccc"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../BaseColor"
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Overlay
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Overlay.svg"
+      - Name: Fill
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/CylinderLEDSideView_Fill.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Value: 35.0
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ff0000"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Off
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Off.svg"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Value: 100.0
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 100.0
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_On
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_On.svg"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 100.0
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+      - Name: LED_Rect
+        Type: Rectangle
+        Children:
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.25
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 18.231000900268555
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ff0000"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+      - Name: LED_PD
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/CylinderLEDSideView_LED_PD.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ff0000"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+      - Name: OriginalWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 36.266998291015625
+      - Name: OriginalHeight
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 28.231000900268555
+      - Name: ns=11;LibraryReference
+        Type: ObjectLibraryReference
+        DataType: ObjectLibraryReferenceDataType
+        ModellingRule: None
+        Value: 
+         {
+          "TypeId": {
+           "Id": 72,
+           "Namespace": 11
+          },
+          "Body": {
+           "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+           "objectGuid": "19a777a845a6f59228f5c2bfa023b9e0",
+           "objectVersion": 1,
+           "highestIgnoredVersion": 0
+          }
+         }
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 92.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -17.0
+    - Name: Label_Fill
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Tanque Lleno"}
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: LED_Fill
+      Type: ScaleLayout
+      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+      Children:
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8bc1c"
+      - Name: On
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: BaseColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cccccc"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 15.0
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Outline
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Outline.svg"
+      - Name: Base
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/CylinderLEDSideView_Base.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#cccccc"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../BaseColor"
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Overlay
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Overlay.svg"
+      - Name: Fill
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/CylinderLEDSideView_Fill.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Value: 35.0
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ff0000"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Off
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_Off.svg"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Value: 100.0
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 100.0
+      - Name: Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_On
+        Type: Image
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/Cylinder_x5F_LED_x5F_Side_x5F_View_x5F_On.svg"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 100.0
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+      - Name: LED_Rect
+        Type: Rectangle
+        Children:
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -1.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.25
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 18.231000900268555
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ff0000"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+      - Name: LED_PD
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/res/CylinderLEDSideView_LED_PD.svg"
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 36.266998291015625
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 28.231000900268555
+        - Name: DynamicColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ff0000"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../FillColor"
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0}"
+                - Name: ns=5;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../../On"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: 35.0
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Float
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+      - Name: OriginalWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 36.266998291015625
+      - Name: OriginalHeight
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 28.231000900268555
+      - Name: ns=11;LibraryReference
+        Type: ObjectLibraryReference
+        DataType: ObjectLibraryReferenceDataType
+        Value: 
+         {
+          "TypeId": {
+           "Id": 72,
+           "Namespace": 11
+          },
+          "Body": {
+           "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+           "objectGuid": "19a777a845a6f59228f5c2bfa023b9e0",
+           "objectVersion": 1,
+           "highestIgnoredVersion": 0
+          }
+         }
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 92.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -12.0

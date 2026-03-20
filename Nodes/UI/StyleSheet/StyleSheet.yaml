@@ -197,7 +197,7 @@ Children:
   - Name: FontPixelSize
     Type: BaseDataVariableType
     DataType: Float
-    Value: 18.0
+    Value: 8.0
   - Name: DataInputBackgroundColor
     Type: BaseDataVariableType
     DataType: Color
