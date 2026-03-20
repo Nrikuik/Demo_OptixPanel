@@ -4630,7 +4630,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Demo_OptixPanel/Model/TanquePurificado/Nivel_Tanque"
+          Value: "/Objects/Demo_OptixPanel/Model/TanqueAgua/Nivel_Tanque"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -5150,7 +5150,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/Demo_OptixPanel/Model/TanqueAgua/Nivel_Tanque"
+          Value: "/Objects/Demo_OptixPanel/Model/TanquePurificado/Nivel_Tanque"
           Children:
           - Name: Mode
             Type: BaseVariableType
